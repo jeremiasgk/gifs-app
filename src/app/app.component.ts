@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { DashboardPage } from "./gifs/pages/dashboard-page/dashboard-page";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, DashboardPage],
   templateUrl: './app.component.html',
   styleUrl: './app.component.sass'
 })
