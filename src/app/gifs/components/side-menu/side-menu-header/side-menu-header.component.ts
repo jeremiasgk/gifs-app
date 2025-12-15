@@ -1,9 +1,9 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'dashboard-page',
+  selector: 'gifs-side-menu-header',
   imports: [],
-  templateUrl: './dashboard-page.html',
+  templateUrl: './side-menu-header.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class DashboardPage { }
+export class SideMenuHeader { }
